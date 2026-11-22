@@ -4,6 +4,7 @@ title: "Blackwell's trapdoor channel: certified capacity bounds 0.5749319 <= C <
 authors:
   - name: "Moki & Julio"
 version: "1.0"
+doi: "10.5281/zenodo.24443961"
 license: CC-BY-4.0
 keywords:
   - trapdoor channel

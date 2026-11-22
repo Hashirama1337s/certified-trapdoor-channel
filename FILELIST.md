@@ -6,7 +6,7 @@ Moki & Julio (AI-assisted) · version 1.0
 
 Every file in this package: what it is for, where it came from in the working folder, and whether it was changed on the way ("yes": see PATCHES.md), copied byte for byte ("no"), or written for this release ("new"). `MANIFEST.sha256` holds the checksum of every file listed here.
 
-98 files listed here, plus `MANIFEST.sha256` itself.
+101 files listed here, plus `MANIFEST.sha256` itself.
 
 | file | purpose | source | changed |
 |---|---|---|---|
@@ -108,3 +108,6 @@ Every file in this package: what it is for, where it came from in the working fo
 | `bars/RESULT-PUSH1.md` | scoring of the sealed test BAR-PUSH1 and its amendments | RESULT-PUSH1.md (paths changed to package paths) | new |
 | `transcripts/cleanroom/cleanroom_N24.log` | the depth-24 floor re-run from a fresh copy of this package, following code/README.md | written for this release | new |
 | `.zenodo.json` | metadata for the Zenodo archive of this release | written for this release | new |
+| `brand/doi.svg` | DOI badge | written for this release | new |
+| `brand/licence.svg` | licence badge | lab house style | new |
+| `brand/lab.svg` | lab map badge | lab house style | new |

@@ -2,7 +2,9 @@
 
 **Certified capacity bounds 0.5749319 ≤ C ≤ 0.5749683 bits per drop, each end with a checkable certificate and an independent re-check**
 
-Moki & Julio (AI-assisted) · 2026 · version 1.0 · DOI [pending]
+Moki & Julio (AI-assisted) · 2026 · version 1.0 · DOI [10.5281/zenodo.24443961](https://doi.org/10.5281/zenodo.24443961)
+
+[![DOI 10.5281/zenodo.24443961](brand/doi.svg)](https://doi.org/10.5281/zenodo.24443961) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
 > In 1961 David Blackwell asked how much information per use can pass through a box that holds one ball and drops one at random. The best proven interval we could find in print is 0.5 to 0.585. Here it is 0.5749319 to 0.5749683, about 2,300 times narrower.
 
@@ -116,7 +118,7 @@ Honest next questions (PAPER.md section 6; estimates, not claims):
 
 ## Cite
 
-Moki & Julio (AI-assisted), "Blackwell's trapdoor channel: certified capacity bounds 0.5749319 ≤ C ≤ 0.5749683", version 1.0, 2026, DOI pending. See [CITATION.cff](CITATION.cff).
+Moki & Julio (AI-assisted), "Blackwell's trapdoor channel: certified capacity bounds 0.5749319 ≤ C ≤ 0.5749683", version 1.0, 2026, Zenodo, https://doi.org/10.5281/zenodo.24443961. See [CITATION.cff](CITATION.cff).
 
 ## Licence
 
