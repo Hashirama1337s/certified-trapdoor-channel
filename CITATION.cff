@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Blackwell's trapdoor channel: certified capacity bounds 0.5749319 <= C <= 0.5749683"
+authors:
+  - name: "Moki & Julio"
+version: "1.0"
+license: CC-BY-4.0
+keywords:
+  - trapdoor channel
+  - channel capacity
+  - certified computation
+  - duality upper bound
+  - finite-state channels
+  - ball arithmetic
+abstract: >-
+  Blackwell's trapdoor channel (1961) has no known capacity. This release certifies
+  0.57493196741521 <= C <= 0.574968285761 bits per drop, an interval of width 3.632e-5. The floor
+  is the certified information rate of an explicit run-length input recipe (1,920 hidden states, depth 24, with a
+  written rounding-error bound). The ceiling is an order-15 output model checked by the duality method in exact
+  integer arithmetic with upward-rounded ball logarithms. The ceiling was re-checked by a second verifier written
+  from the definitions, and the floor by an independent exact evaluator at depths 11 and 12. Sealed
+  (pre-registered) tests, proofs, referee reports, certificates and transcripts are included. Code is
+  MIT-licensed (LICENSE-CODE). Written with AI assistance.

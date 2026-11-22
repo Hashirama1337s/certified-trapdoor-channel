@@ -1,0 +1,5 @@
+selftest recursion == channel path enumeration, random rational rewards, k=1..6: PASS (0.0s)
+../../runs/push1/cert_col_k15_cont_claim.json
+  k=15  rho_up(ref) 12dp-up = 0.574968285761   15dp-up = 0.574968285760847   argmax=(0, '011001000001101', 1)   time 8.4s
+  claimed_rho_upper 0.574968285761: PASS
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap

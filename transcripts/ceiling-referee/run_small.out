@@ -1,0 +1,9 @@
+selftest recursion == channel path enumeration, random rational rewards, k=1..6: PASS (0.0s)
+Lemma C1 exact (k=3 n=7, k=2 n=6, all x^n, both s0): 1536 identities PASS (0.1s)
+build-ub3/certs/cert_col_k3_opt.json
+  k=3  rho_up(ref) 12dp-up = 0.578638551236   15dp-up = 0.578638551235890   argmax=(1, '110', 0)   time 0.0s
+build-ub3/certs/cert_col_k4_cvx.json
+  k=4  rho_up(ref) 12dp-up = 0.576155708536   15dp-up = 0.576155708535299   argmax=(1, '1000', 0)   time 0.0s
+build-ub3/certs/cert_col_k7_from_d8k7.json
+  k=7  rho_up(ref) 12dp-up = 0.575232734723   15dp-up = 0.575232734722443   argmax=(0, '1000101', 1)   time 0.0s
+memcap: exit 0, peak 0.02 GB of 6.00 GB cap

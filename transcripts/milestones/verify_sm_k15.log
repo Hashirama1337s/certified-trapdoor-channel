@@ -1,0 +1,8 @@
+self-tests (S1) Kobayashi-Morita n<=6, (S2) coin form n<=6, (S3) operator g == brute force k=1..6: PASS (0.1s)
+cert certs/cert_col_k15_sm.json
+  k=15 states=65536 state-actions=131072; T rows in (0,1): PASS; logs: arb 192-bit, dyadic 2^-64 up
+  rho_up (rounded up) = 0.574968594275   [15 dp: 0.574968594274944]   argmax (s, x_1..x_k, a) = (1, '111001101111111', 1)
+  sha256 462f043a97fd3a807e237a8558a438299f371a3c612e231e88f10d10688a8446
+  verifier time 0.53s
+RESULT: PASS
+memcap: exit 0, peak 0.45 GB of 8.00 GB cap

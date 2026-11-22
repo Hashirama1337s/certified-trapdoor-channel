@@ -1,0 +1,6 @@
+cert certs/xcheck_old_u2b_d12_k11_from_col.json
+  d=12 k=11 states=8388608 channel self-test (Kobayashi-Morita, n<=6): PASS; T rows in (0,1), sum 1: PASS
+  rho_cert upper endpoint (rounded up) = 0.575008505468   argmax (s,xs,q,x)=(1, (1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1), 1780, 1)
+  references: log2(3/2) upper endpoint = 0.584962500721156; rho_up - upper(log2(3/2)) = -9.954e-03; log2(golden) lower endpoint = 0.694241913631
+  exact rational upper endpoint has 77-digit denominator; verifier time 248.56s
+memcap: exit 0, peak 1.28 GB of 8.00 GB cap

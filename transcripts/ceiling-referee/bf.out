@@ -1,0 +1,15 @@
+MAIN  : k=3 n=4 rho=0.578638551236 K0=3.810780 max_x D=3.531373997 (n*rho=2.314554205)  tight min slack 1.097e-13 OK   global min slack 2.594e+00 OK
+MAIN  : k=3 n=6 rho=0.578638551236 K0=3.810780 max_x D=4.689973164 (n*rho=3.471831307)  tight min slack 3.300e-13 OK   global min slack 2.593e+00 OK
+MAIN  : k=3 n=8 rho=0.578638551236 K0=3.810780 max_x D=5.894673512 (n*rho=4.629108410)  tight min slack 5.683e-10 OK   global min slack 2.545e+00 OK
+MAIN  : k=3 n=10 rho=0.578638551236 K0=3.810780 max_x D=7.063806424 (n*rho=5.786385512)  tight min slack 1.852e-09 OK   global min slack 2.533e+00 OK
+MAIN  : k=3 n=12 rho=0.578638551236 K0=3.810780 max_x D=8.224047477 (n*rho=6.943662615)  tight min slack 3.804e-09 OK   global min slack 2.530e+00 OK
+NEG rho-1e-4: k=3 n=12 rho=0.578538551236 K0=3.811080 max_x D=8.224047477 (n*rho=6.942462615)  tight min slack -9.000e-04 VIOLATION   global min slack 2.529e+00 OK
+NEG T0[0]+0.05: k=3 n=12 rho=0.578638551236 K0=4.257810 max_x D=8.504300899 (n*rho=6.943662615)  tight min slack -3.239e-01 VIOLATION   global min slack 2.697e+00 OK
+memcap: exit 0, peak 1.10 GB of 6.00 GB cap
+MAIN  : k=4 n=5 rho=0.576155708536 K0=5.133810 max_x D=4.197092891 (n*rho=2.880778543)  tight min slack 7.003e-13 OK   global min slack 3.817e+00 OK
+MAIN  : k=4 n=8 rho=0.576155708536 K0=5.133810 max_x D=5.925560014 (n*rho=4.609245668)  tight min slack 2.803e-12 OK   global min slack 3.817e+00 OK
+MAIN  : k=4 n=10 rho=0.576155708536 K0=5.133810 max_x D=7.086820416 (n*rho=5.761557085)  tight min slack 4.204e-12 OK   global min slack 3.809e+00 OK
+MAIN  : k=4 n=12 rho=0.576155708536 K0=5.133810 max_x D=8.242837700 (n*rho=6.913868502)  tight min slack 5.607e-12 OK   global min slack 3.805e+00 OK
+NEG rho-1e-4: k=4 n=12 rho=0.576055708536 K0=5.134210 max_x D=8.242837700 (n*rho=6.912668502)  tight min slack -8.000e-04 VIOLATION   global min slack 3.804e+00 OK
+NEG T0[0]+0.05: k=4 n=12 rho=0.576155708536 K0=5.543544 max_x D=8.461727095 (n*rho=6.913868502)  tight min slack -2.900e-01 VIOLATION   global min slack 3.996e+00 OK
+memcap: exit 0, peak 1.10 GB of 6.00 GB cap

@@ -1,0 +1,23 @@
+self-tests (S1) Kobayashi-Morita n<=6, (S2) coin form n<=6, (S3) operator g == brute force k=1..6: PASS (0.1s)
+cert build-ub3/certs/cert_col_k12_cvx.json
+  k=12 states=8192 state-actions=16384; T rows in (0,1): PASS; logs: arb 192-bit, dyadic 2^-64 up
+  rho_up (rounded up) = 0.574989601774   [15 dp: 0.574989601773768]   argmax (s, x_1..x_k, a) = (0, '100010000101', 1)
+  sha256 efd459ff22a95b9ad026cb9277dbb3bfafaddae96e2de7abc8bdeb9432bba6a7
+  verifier time 0.21s
+cert build-ub3/certs/cert_col_k13_sm.json
+  k=13 states=16384 state-actions=32768; T rows in (0,1): PASS; logs: arb 192-bit, dyadic 2^-64 up
+  rho_up (rounded up) = 0.574979956446   [15 dp: 0.574979956445641]   argmax (s, x_1..x_k, a) = (0, '0111001111110', 0)
+  sha256 d3f79c17210f4629953bf1830fe414f69059548a025b0fbc86549db0e55df514
+  verifier time 0.09s
+cert build-ub3/certs/cert_col_k14_sm.json
+  k=14 states=32768 state-actions=65536; T rows in (0,1): PASS; logs: arb 192-bit, dyadic 2^-64 up
+  rho_up (rounded up) = 0.574970606024   [15 dp: 0.574970606023238]   argmax (s, x_1..x_k, a) = (0, '00000000001110', 1)
+  sha256 b21ba2e168c98844b716d8a23b8003fb3473d30dd1303cfa2e61ea25d7a38b13
+  verifier time 0.22s
+cert build-ub3/certs/cert_col_k15_sm.json
+  k=15 states=65536 state-actions=131072; T rows in (0,1): PASS; logs: arb 192-bit, dyadic 2^-64 up
+  rho_up (rounded up) = 0.574968594275   [15 dp: 0.574968594274944]   argmax (s, x_1..x_k, a) = (1, '111001101111111', 1)
+  sha256 462f043a97fd3a807e237a8558a438299f371a3c612e231e88f10d10688a8446
+  verifier time 0.39s
+RESULT: PASS
+memcap: exit 0, peak 0.45 GB of 6.00 GB cap

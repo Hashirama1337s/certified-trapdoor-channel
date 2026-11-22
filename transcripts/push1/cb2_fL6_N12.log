@@ -1,0 +1,11 @@
+  leaf 1/1  0.3s
+input sha256 = 833a072661459f6f3ee982438b75360b6f90c4f9f921512af0f25cfb07d3ed94
+input RL(10,8,6) N=12 nb=12  (proven log2 routine: LAMBDA = 3.8671e-15 = 2^-47.88, series terms 10)
+Pr(X != S) exact ~ 0.36203567457138097
+a-priori: smallest positive float coefficient 2.405000e-03, amin^N/2 = 1.872e-32 > 2^-1000
+observed (diagnostic): min positive beta-tilde = 1.274e-09  max beta-tilde = 0.037806430869015889
+L_N computed (exact combination of float entropies) = 0.5747012967683128 (rounded down)
+rigorous error bound E = 2.315e-13
+CERTIFIED LOWER ENDPOINT: 0.57470129676808
+time pi 5.6s total 6.0s
+memcap: exit 0, peak 0.63 GB of 8.00 GB cap

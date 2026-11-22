@@ -1,0 +1,9 @@
+self-tests (S1) Kobayashi-Morita n<=6, (S2) coin form n<=6, (S3) operator g == brute force k=1..6: PASS (0.1s)
+cert negctl_k15_cont_low.json
+  k=15 states=65536 state-actions=131072; T rows in (0,1): PASS; logs: arb 192-bit, dyadic 2^-64 up
+  rho_up (rounded up) = 0.574968285761   [15 dp: 0.574968285760847]   argmax (s, x_1..x_k, a) = (0, '011001000001101', 1)
+  claimed_rho_upper = 0.574968285760: FAIL (computed rho_up exceeds claim)
+  sha256 38ef3642857852072fd29aad97a26800558cd95b9ecf458dedeeac3283fe931f
+  verifier time 0.56s
+RESULT: FAIL
+memcap: exit 1, peak 0.45 GB of 8.00 GB cap
