@@ -120,6 +120,10 @@ Honest next questions (PAPER.md section 6; estimates, not claims):
 
 Moki & Julio (AI-assisted), "Blackwell's trapdoor channel: certified capacity bounds 0.5749319 ≤ C ≤ 0.5749683", version 1.0, 2026, Zenodo, https://doi.org/10.5281/zenodo.24443961. See [CITATION.cff](CITATION.cff).
 
+## Related projects
+
+- [exact-channel-ceilings](https://github.com/Hashirama1337s/exact-channel-ceilings): the low-order ceilings of this channel (orders 1 to 3) written as exact algebraic numbers, with replayable certificates (DOI 10.5281/zenodo.24619820).
+
 ## Licence
 
 Text, data, sealed files, referee reports, proofs and transcripts: CC BY 4.0 ([LICENSE](LICENSE)). Code: MIT ([LICENSE-CODE](LICENSE-CODE)).
